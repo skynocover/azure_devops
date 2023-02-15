@@ -64,6 +64,7 @@ function hashInputData(functionSignature, inputs) {
 
 (async () => {
   try {
+    return;
     // const requestToken = await getRequestToken();
     // console.log({ requestToken });
     // const provider = new ethers.providers.JsonRpcProvider(
@@ -240,8 +241,9 @@ app.get("/", function (req, res) {
     });
 });
 
-app.get("/check", () => {
+app.get("/check", (req, res) => {
   console.log("success");
+  res.send("success");
 });
 
 app.listen(3000);

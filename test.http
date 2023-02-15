@@ -2,3 +2,6 @@ GET https://discord.com/api/oauth2/authorize?client_id=1070604727206817792&redir
 
 ####
 POST https://api.twitter.com/oauth/request_token
+
+####
+GET http://localhost:3000/check

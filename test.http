@@ -1,0 +1,4 @@
+GET https://discord.com/api/oauth2/authorize?client_id=1070604727206817792&redirect_uri=http%3A%2F%2Flocalhost%3A3000&response_type=code&scope=email%20identify
+
+####
+POST https://api.twitter.com/oauth/request_token
